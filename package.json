@@ -1,0 +1,13 @@
+{
+  "name": "ruby",
+  "version": "1.0.0",
+  "description": "Demo ruby",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker:build": "docker build -t ruby .",
+    "docker:run": "docker run -p 4000:4000 ruby"
+  },
+  "author": "Daniela Dell Acqua",
+  "license": "ISC"
+}

@@ -1,0 +1,28 @@
+body {
+	background-color: #fff; /* White background for contrast */
+	color: #333; /* Dark grey color for text */
+	font-family: Arial, sans-serif; /* A clean, modern font */
+}
+
+h1 {
+	color: #900; /* Dark red color for headings, reminiscent of Ruby */
+}
+
+a {
+	color: #d00; /* Brighter red for links */
+}
+
+a:hover {
+	color: #900; /* Dark red on hover for a subtle effect */
+}
+
+.img-fluid {
+	display: block; /* Set the image as a block element */
+	margin: auto; /* Center the image horizontally */
+	position: fixed; /* Position the image relative to the viewport */
+	top: 50%; /* Move the image 50% down from the top of the viewport */
+	left: 50%; /* Move the image 50% from the left of the viewport */
+	transform: translate(-50%, -50%); /* Center the image both vertically and horizontally */
+	z-index: -1; /* Place the image below all other elements */
+}
+
